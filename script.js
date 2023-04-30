@@ -68,6 +68,8 @@ let words = [
   "BLUE",
   "BROWN",
   "GRAY",
+"PINK",
+"PURPLE", 
   "WHITE",
 ];
 let hiddenWord = words[Math.floor(Math.random() * words.length)+1];
