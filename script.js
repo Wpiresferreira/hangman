@@ -72,7 +72,7 @@ let words = [
 "PURPLE", 
   "WHITE",
 ];
-let hiddenWord = words[Math.floor(Math.random() * words.length)+1];
+let hiddenWord = words[Math.floor(Math.random() * words.length)];
 let isFound = false;
 
 elementLife.innerText = "Life " + life;
