@@ -58,5 +58,6 @@ footer{
     .container{
         flex-direction: column;
         max-width: 60vw;
+        height: auto;
     }
 }
