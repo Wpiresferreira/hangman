@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Score;
+    src: url(ScoreBoardSt-DX5d.ttf);
+}
+
+* {
+    background-color: rgba(239, 252, 193);
+    color: rgb(9, 106, 46);
+    font-family: Score;
+
+}
+
+h1{
+    text-align: center;
+}
+
+.top-bar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+#letters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 60vh;
+    overflow: hidden;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+#hiddenWord{
+    font-weight: bolder;
+    font-size: 10vw
+}
+
+footer{
+    font-size: xx-large;
+}
+
+@media (max-width: 600px) {
+    .container{
+        flex-direction: column;
+    }
+}
