@@ -4,10 +4,10 @@
 }
 
 * {
+    margin: 0;
     background-color: rgba(239, 252, 193);
     color: rgb(9, 106, 46);
     font-family: Score;
-    margin:0;
 
 }
 
@@ -26,6 +26,9 @@ h1{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+.letter{
+    font-size: x-large;
 }
 
 .container{
@@ -51,12 +54,9 @@ footer{
     text-align: center;
 }
 
-.letter{
-    font-size: xx-large;
-}
-
 @media (max-width: 600px) {
     .container{
         flex-direction: column;
+        max-width: 60vw;
     }
 }
