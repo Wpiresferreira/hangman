@@ -71,6 +71,8 @@ let words = [
 "PINK",
 "PURPLE", 
   "WHITE",
+  "GOLD",
+  "SILVER"
 ];
 let hiddenWord = words[Math.floor(Math.random() * words.length)];
 let isFound = false;
